@@ -5,12 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+
+        <!--Responsividade-->
+        <link rel="stylesheet" href="style/responsive.css">
+
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+
+
     <title>NETFILX CLONE</title>
 </head>
 <body>
+
+   
+   
     <header>
         <div class="container">
-            <h2 class="logo">NETFILX</h2>
+            <h2 class="logo">Heroes</h2>
             <nav>
                 <a href="#">Inaicio</a> 
                 <a href="#">Séries</a> 
@@ -29,17 +43,56 @@
                 <div class="botoes">
                     <button   role ="button" class="botao">
                         <i class="fa-solid fa-play"></i>
-                        Assistir Agora
+                        <a href="https://youtu.be/ZPCJvTq9wiU">Assistir Agora</a> 
                     </button>
 
                     <button role= "button" class="botao">
                         <i class="fa-solid fa-circle-info"></i>
-                        Mais Informações
+                        <a href="https://www.themoviedb.org/tv/92749-moon-knight">Mais Informações</a> 
                     </button>
                 </div>
             </div>
         </div>
     </main> 
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/Mini1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/Mini2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/Mini3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/Mini4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/Mini5.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/Mini6.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/Mini7.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/Mini8.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/Mini9.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/Mini10.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
     <script src="https://kit.fontawesome.com/a91462260b.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/main.js"></script>
 </body>
 </html>

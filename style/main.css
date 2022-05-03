@@ -1,5 +1,5 @@
 :root{
-    --vermelho: #e50914;
+    --titulo: blue;
     --preta: #141414;
 }
 *{
@@ -11,7 +11,7 @@
 /*Elemento Basa*/
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 
 }
@@ -25,7 +25,7 @@ header .container{
 
 header .logo{
     margin-left: 5px;
-    color: var(--vermelho);
+    color: var(--titulo);
     font-family: 'Arial Black', Times;
     font-size: 40px;
 }
@@ -45,7 +45,7 @@ header nav a:hover{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/CavaleiroDaLua.jpg');
 
-    height: 400px;
+    height: 500px;
     background-size: cover;
 
     display: flex;
@@ -78,8 +78,19 @@ header nav a:hover{
     cursor: pointer;
     transition: .3s ease all;
 }
+.botao a{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
 
+    text-decoration: none;
+}
 .botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao  a:hover{
     background-color: white;
     color: black;
 }
@@ -93,4 +104,13 @@ header nav a:hover{
 }
 .filme-principal .container{
     width: 60%;
+}
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
 }
